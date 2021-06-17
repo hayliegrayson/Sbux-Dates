@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sbux Dates</title>
+    <link rel="stylesheet" href="index.css" class="css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body onLoad="renderToday();">
+    <div id="main" class="main">
+        <div class="container">
+            <h1 id="greeting">Good Afternoon ☕️</h1>
+            <p id="today">Today is Thursday, June 17</p>
+            <table id="t1">
+                <tbody>
+                    <tr>
+                        <td style="font-weight: 600">2 days</td>
+                        <td style="text-align: right" id="days2"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600">5 days</td>
+                        <td style="text-align: right" id="days5"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600">7 days</td>
+                        <td style="text-align: right" id="days7"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600">14 days</td>
+                        <td style="text-align: right" id="days14"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600">30 days</td>
+                        <td style="text-align: right" id="days30"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
