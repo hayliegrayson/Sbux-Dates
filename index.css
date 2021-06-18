@@ -10,7 +10,7 @@ body {
 }
 
 .main {
-    max-width: 400px;
+    max-width: 500px;
     background: #1E3932;
     margin: 100px auto;
     color: white;
@@ -38,3 +38,19 @@ table {
     font-size: 18px;
     line-height: 2;
 }
+
+@media only screen and (max-width: 600px) {
+    .main {
+      max-width: 350px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 18px;
+    }
+    table {
+        font-size: 16px;
+    }
+  }
