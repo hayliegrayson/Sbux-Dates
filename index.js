@@ -16,7 +16,7 @@ function renderToday(){
 		else if (h >= 17 && h < 24)
 			greet = "Good Evening 🌙";
 		else
-			greet = "You're working now? 🤨";
+			greet = "Go to Sleep 🤨";
 	document.getElementById("greeting").innerHTML = greet;
 	//Today
 	var myDate = new Date();
